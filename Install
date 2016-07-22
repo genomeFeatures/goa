@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# run unit tests to ensure product stability
+cd unittest
+./all_tests.sh || { exit 1; }
+
+
+echo "Product installed successfully"
