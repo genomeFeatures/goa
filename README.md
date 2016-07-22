@@ -6,6 +6,7 @@ Example: One could use the library- to convert GPAD/GPI files to GAF file and vi
 To generate the mapping between Evidence code <-> ECO code, the converter indexes
 publicly available maps - for both the GO reference and the GAF-ECO mapping.
 The files are fetched from the following sources and indexed locally for further use:
+
   1) GO Reference Collection - dependency :http://www.geneontology.org/doc/GO.references
   2) GAF - ECO evidence map - dependency :http://purl.obolibrary.org/obo/eco/gaf-eco-mapping.txt
   3) GAF - ECO evidence map - dependency: ftp://ftp.informatics.jax.org/pub/reports/GO_eco_association.rpt
